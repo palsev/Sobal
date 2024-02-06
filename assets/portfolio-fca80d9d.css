@@ -1,0 +1,2 @@
+.vebal-banner::before { border-width: 1px; --tw-border-opacity: 1; border-color: rgb(254 213 51 / var(--tw-border-opacity)); content: ""; width: 16px; height: 6px; left: 0px; top: -5px; position: absolute; border-top-left-radius: 8px; }
+.vebal-banner::after { border-width: 1px; --tw-border-opacity: 1; border-color: rgb(254 213 51 / var(--tw-border-opacity)); content: ""; width: 16px; height: 6px; bottom: -5px; right: 0px; position: absolute; border-bottom-right-radius: 8px; }

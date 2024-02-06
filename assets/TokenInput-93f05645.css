@@ -1,0 +1,48 @@
+.bal-dropdown[data-v-7b2afdb2] { position: absolute; z-index: 10; border-radius: 0.5rem; --tw-shadow: 0px 4px 6px -1px rgba(0, 0, 0, .05), 0px 2px 4px -1px rgba(0, 0, 0, .05); --tw-shadow-colored: 0px 4px 6px -1px var(--tw-shadow-color), 0px 2px 4px -1px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow); --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); }
+.dark .bal-dropdown[data-v-7b2afdb2] { --tw-bg-opacity: 1; background-color: rgb(37 37 37 / var(--tw-bg-opacity)); }
+.bal-dropdown[data-v-7b2afdb2] > :not([hidden]) ~ :not([hidden]) { --tw-divide-y-reverse: 0; border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse))); border-bottom-width: calc(1px * var(--tw-divide-y-reverse)); }
+.bal-dropdown[data-v-7b2afdb2] { border-width: 1px; }
+.dark .bal-dropdown[data-v-7b2afdb2] > :not([hidden]) ~ :not([hidden]) { --tw-divide-opacity: 1; border-color: rgb(6 6 6 / var(--tw-divide-opacity)); }
+.dark .bal-dropdown[data-v-7b2afdb2] { --tw-border-opacity: 1; border-color: rgb(6 6 6 / var(--tw-border-opacity)); }
+.bal-dropdown-row[data-v-7b2afdb2] { cursor: pointer; white-space: nowrap; padding: 0.75rem; }
+.bal-dropdown-row[data-v-7b2afdb2]:hover { --tw-bg-opacity: 1; background-color: rgb(190 190 190 / var(--tw-bg-opacity)); }
+.dark .bal-dropdown-row[data-v-7b2afdb2]:hover { --tw-bg-opacity: 1; background-color: rgb(16 16 16 / var(--tw-bg-opacity)); }
+.bal-dropdown-row[data-v-7b2afdb2]:first-child { border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
+.bal-dropdown-row[data-v-7b2afdb2]:last-child { border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem; }
+.token-select-input[data-v-45fb85e5] { display: flex; height: 2.5rem; align-items: center; white-space: nowrap; border-radius: 0.5rem; padding-left: 0.5rem; padding-right: 0.5rem; --tw-shadow: 0px 4px 6px -1px rgba(0, 0, 0, .05), 0px 2px 4px -1px rgba(0, 0, 0, .05); --tw-shadow-colored: 0px 4px 6px -1px var(--tw-shadow-color), 0px 2px 4px -1px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow); font-size: 0.875rem; line-height: 1.25rem; font-variation-settings: "wght" 700; }
+.selectable[data-v-45fb85e5] { cursor: pointer; transition-property: box-shadow; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 0.15s; }
+.selectable[data-v-45fb85e5]:hover { --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow); }
+.unselected[data-v-45fb85e5] { --tw-bg-opacity: 1; background-color: rgb(187 246 59 / var(--tw-bg-opacity)); --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); }
+.dark .unselected[data-v-45fb85e5] { --tw-bg-opacity: 1; background-color: rgb(201 248 98 / var(--tw-bg-opacity)); }
+.selected[data-v-45fb85e5] { --tw-bg-opacity: 1; background-color: rgb(190 190 190 / var(--tw-bg-opacity)); --tw-text-opacity: 1; color: rgb(0 0 0 / var(--tw-text-opacity)); }
+.dark .selected[data-v-45fb85e5] { --tw-bg-opacity: 1; background-color: rgb(57 57 57 / var(--tw-bg-opacity)); --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); }
+.vue-slider-disabled .vue-slider-process { background-color: rgb(167, 167, 167); }
+.vue-slider-disabled .vue-slider-dot-handle { border-color: rgb(167, 167, 167); }
+.vue-slider-disabled .vue-slider-mark-step-active { box-shadow: rgb(167, 167, 167) 0px 0px 0px 2px; }
+.vue-slider-rail { background-color: rgb(245, 245, 245); border-radius: 15px; transition: background-color 0.3s ease 0s; }
+.vue-slider:hover .vue-slider-rail { background-color: rgb(225, 225, 225); }
+.vue-slider-process { background-color: rgb(156, 213, 255); border-radius: 15px; transition: background-color 0.3s ease 0s; }
+.vue-slider:hover .vue-slider-process { background-color: rgb(105, 192, 255); }
+.vue-slider-mark-step { width: 100%; height: 100%; border-radius: 50%; box-shadow: rgb(232, 232, 232) 0px 0px 0px 2px; background-color: rgb(255, 255, 255); }
+.vue-slider-mark-step-active { box-shadow: rgb(156, 213, 255) 0px 0px 0px 2px; }
+.vue-slider:hover .vue-slider-mark-step-active { box-shadow: rgb(105, 192, 255) 0px 0px 0px 2px; }
+.vue-slider-mark-label { font-size: 12px; white-space: nowrap; }
+.vue-slider-dot-handle { cursor: pointer; width: 100%; height: 100%; border-radius: 50%; background-color: rgb(255, 255, 255); border: 2px solid rgb(156, 213, 255); box-sizing: border-box; transition: box-shadow 0.3s ease 0s, border-color 0.3s ease 0s; }
+.vue-slider:hover .vue-slider-dot-handle { border-color: rgb(105, 192, 255); }
+.vue-slider-dot-handle-focus { border-color: rgb(54, 171, 255); box-shadow: rgba(54, 171, 255, 0.2) 0px 0px 0px 5px; }
+.vue-slider:hover .vue-slider-dot-handle-focus, .vue-slider-dot-handle:hover, .vue-slider:hover .vue-slider-dot-handle:hover { border-color: rgb(54, 171, 255); }
+.vue-slider-dot-handle-disabled { cursor: not-allowed; border-color: rgb(221, 221, 221) !important; }
+.vue-slider-dot-tooltip { opacity: 0; visibility: hidden; transition: all 0.3s ease 0s; }
+.vue-slider-dot-tooltip-inner { font-size: 14px; white-space: nowrap; padding: 6px 8px; color: rgb(255, 255, 255); border-radius: 5px; border-color: rgba(0, 0, 0, 0.75); background-color: rgba(0, 0, 0, 0.75); box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; transform: scale(0.9); transition: transform 0.3s ease 0s; }
+.vue-slider-dot-tooltip-inner::after { content: ""; position: absolute; }
+.vue-slider-dot-tooltip-inner-top::after { top: 100%; left: 50%; transform: translate(-50%); height: 0px; width: 0px; border-right: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid transparent; border-top-style: solid; border-top-width: 5px; border-top-color: inherit; }
+.vue-slider-dot-tooltip-inner-bottom::after { bottom: 100%; left: 50%; transform: translate(-50%); height: 0px; width: 0px; border-top: 5px solid transparent; border-right: 5px solid transparent; border-left: 5px solid transparent; border-bottom-style: solid; border-bottom-width: 5px; border-bottom-color: inherit; }
+.vue-slider-dot-tooltip-inner-left::after { left: 100%; top: 50%; transform: translateY(-50%); height: 0px; width: 0px; border-top: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid transparent; border-left-style: solid; border-left-width: 5px; border-left-color: inherit; }
+.vue-slider-dot-tooltip-inner-right::after { right: 100%; top: 50%; transform: translateY(-50%); height: 0px; width: 0px; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid transparent; border-right-style: solid; border-right-width: 5px; border-right-color: inherit; }
+.vue-slider-dot-tooltip-inner-top { transform-origin: 50% 100%; }
+.vue-slider-dot-tooltip-inner-bottom { transform-origin: 50% 0px; }
+.vue-slider-dot-tooltip-inner-left { transform-origin: 100% 50%; }
+.vue-slider-dot-tooltip-inner-right { transform-origin: 0% 50%; }
+.vue-slider-dot:hover .vue-slider-dot-tooltip, .vue-slider-dot-tooltip-show { opacity: 1; visibility: visible; }
+.vue-slider-dot:hover .vue-slider-dot-tooltip .vue-slider-dot-tooltip-inner, .vue-slider-dot-tooltip-show .vue-slider-dot-tooltip-inner { transform: scale(1); }
+.vue-slider-dot-handle-focus { box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 5px; }

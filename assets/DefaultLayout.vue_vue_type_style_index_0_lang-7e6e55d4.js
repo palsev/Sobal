@@ -1,0 +1,5 @@
+import{A as c,F as d}from"./AppNav-b0ca3d82.js";import{S as p}from"./index-65875696.js";import{u}from"./tailwind.config-93ced0cc.js";import{d as i,r as l,o as _,p as m,b,x as f,y as o,h as s,e as g,C as h,D as v}from"./runtime-core.esm-bundler-24a2b16f.js";const y={class:"app-wrapper"},k={class:"hidden xl:block"},w={class:"my-2 ml-2 app-body"},x={class:"pb-16 m-auto"},R={class:"footer-body"},F=i({__name:"DefaultLayout",setup(B){const r=l();function n(a){const t={home:"pool",swap:"swap",pool:"pool",portfolio:"portfolio"};r.value=t[a]?`background-image: url(/images/backgrounds/${t[a]}-bg.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;`:""}const e=u();return _(async()=>{await e.isReady(),n(e.currentRoute.value.name)}),m(e.currentRoute,()=>{n(e.currentRoute.value.name)}),(a,t)=>(b(),f("div",y,[o("div",k,[s(p)]),o("div",{class:"app-body-wrapper",style:h(v(r))},[o("div",w,[s(c),o("div",x,[g(a.$slots,"default")])]),o("div",R,[s(d)])],4)]))}});export{F as _};
+//# sourceMappingURL=DefaultLayout.vue_vue_type_style_index_0_lang-7e6e55d4.js.map

@@ -1,0 +1,2 @@
+import{v as e,ai as o}from"./runtime-core.esm-bundler-24a2b16f.js";const n=e({initialized:!1,tokenInAddress:"",tokenOutAddress:"",tokenInAmount:"",tokenOutAmount:""});function s(t){n.initialized=t}function u(t){n.tokenInAddress=t}function i(t){n.tokenOutAddress=t}function d(t){n.tokenInAmount=t}function a(t){n.tokenOutAmount=t}function r(){return{...o(n),setTokenInAddress:u,setTokenOutAddress:i,setTokenInAmount:d,setTokenOutAmount:a,setInitialized:s}}export{r as u};
+//# sourceMappingURL=useSwapState-9610c199.js.map

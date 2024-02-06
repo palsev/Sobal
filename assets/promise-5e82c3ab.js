@@ -1,0 +1,2 @@
+import{s as n}from"./connector-d867b6ec.js";async function a(t,e,o){var r;try{return await t}catch(s){const i=((r=s==null?void 0:s.response)==null?void 0:r.status)||0;return e===1||i===404||i===429?Promise.reject(s):(console.log("retrying promise",e,"time"),await n(o),a(t,e-1,o))}}async function m(t,e){return Promise.race([t,new Promise((o,r)=>setTimeout(r,e))])}export{a as r,m as t};
+//# sourceMappingURL=promise-5e82c3ab.js.map
