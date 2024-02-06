@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/#/pools", "permanent": false }
+    { "source": "/#", "destination": "/#/pools", "permanent": false }
   ]
 }
